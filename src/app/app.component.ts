@@ -7,9 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   value: number;
-  lastValue: number;
-
-  onSubmit() {
-    this.lastValue = this.value;
-  }
 }

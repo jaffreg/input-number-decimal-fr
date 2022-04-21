@@ -1,8 +1,11 @@
-<p-inputNumber
-  [(ngModel)]="value"
-  mode="currency"
-  currency="EUR"
-  [minFractionDigits]="2"
-  [maxFractionDigits]="2"
-  (keydown.enter)="onSubmit()"
-></p-inputNumber>
+<div>
+  <span>Enter an amount: </span>
+  <p-inputNumber
+    [(ngModel)]="value"
+    mode="currency"
+    currency="EUR"
+    locale="fr"
+    [minFractionDigits]="2"
+    [maxFractionDigits]="2"
+  ></p-inputNumber>
+</div>
