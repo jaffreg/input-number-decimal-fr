@@ -1,0 +1,8 @@
+<p-inputNumber
+  [(ngModel)]="value"
+  mode="currency"
+  currency="EUR"
+  [minFractionDigits]="2"
+  [maxFractionDigits]="2"
+  (keydown.enter)="onSubmit()"
+></p-inputNumber>
